@@ -40,7 +40,10 @@
                 <div class="auth-switch">New here? <a href="/signup">Create a requester account</a></div>
             </div>
 
-            <div class="demo-hint">Default admin: <code>admin@universalhelpdesk.local</code> / <code>ChangeMe123!</code> — change this after first login.</div>
+            <div class="demo-hint">
+                Seeded accounts, all <code>ChangeMe123!</code> — change them after first login.<br>
+                <code>admin@universalhelpdesk.local</code> · <code>agent@universalhelpdesk.local</code> · <code>requester@universalhelpdesk.local</code>
+            </div>
         </div>
     </div>
     <?= theme_toggle_script() ?>

@@ -1,8 +1,3 @@
-#-------------------------
-# Operating Specific Junk Files
-#-------------------------
-
-# OS X
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -63,6 +58,10 @@ Vagrantfile
 /writable/debugbar/*
 !/writable/debugbar/index.html
 
+# Local SQLite database (users, ticket_meta, ticket_messages)
+/writable/database.db
+/writable/users-backup.json
+
 php_errors.log
 
 #-------------------------
@@ -119,8 +118,10 @@ _modules/*
 .phpintel
 /api/
 
-# Visual Studio Code
 .vscode/
 
 /results/
 /phpunit.xml
+.claude
+
+.env.example

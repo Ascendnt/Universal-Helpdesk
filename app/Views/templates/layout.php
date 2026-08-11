@@ -27,6 +27,13 @@
                     New Ticket
                 </a>
 
+                <?php $unread = unread_notifications(); ?>
+                <a href="/notifications" class="<?= uri_string() === 'notifications' ? 'active' : '' ?>">
+                    <?= icon('mail') ?>
+                    Notifications
+                    <?php if ($unread > 0): ?><span class="nav-badge"><?= $unread > 99 ? '99+' : $unread ?></span><?php endif ?>
+                </a>
+
                 <?php if ($user['role'] === 'superadmin'): ?>
                     <div class="nav-section-label">Administration</div>
                     <a href="/reports" class="<?= uri_string() === 'reports' ? 'active' : '' ?>">
@@ -36,6 +43,10 @@
                     <a href="/admin/users" class="<?= str_starts_with(uri_string(), 'admin/users') ? 'active' : '' ?>">
                         <?= icon('users') ?>
                         Manage Staff
+                    </a>
+                    <a href="/admin/departments" class="<?= str_starts_with(uri_string(), 'admin/departments') ? 'active' : '' ?>">
+                        <?= icon('department') ?>
+                        Departments
                     </a>
                 <?php endif ?>
             </nav>
