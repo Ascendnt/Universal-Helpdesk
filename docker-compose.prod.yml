@@ -2,10 +2,6 @@
 #
 #   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
 #
-# which is:
-#
-#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
-#
 # Same stack, same containers, same command as development - this box is a
 # computer in the office, not a cloud tier, so nothing has to be taken out to
 # make it fit. Ollama comes too and the whole thing keeps running with no
