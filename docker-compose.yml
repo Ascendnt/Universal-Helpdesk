@@ -60,7 +60,7 @@ services:
       - MAIL_PASS=${MAIL_PASS:-}
       - MAIL_CRYPTO=${MAIL_CRYPTO:-}
       - MAIL_FROM=${MAIL_FROM:-helpdesk@universalhelpdesk.local}
-      - MAIL_FROM_NAME=${MAIL_FROM_NAME:-Universal HelpDesk}
+      - MAIL_FROM_NAME=${MAIL_FROM_NAME:-Chikiting System}
     volumes:
       - .:/app
       - app_vendor:/app/vendor

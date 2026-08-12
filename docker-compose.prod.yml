@@ -1,4 +1,4 @@
-# Universal HelpDesk - the production overlay, for the office machine.
+# Chikiting System - the production overlay, for the office machine.
 #
 #   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
 #
@@ -70,7 +70,7 @@ services:
       - MAIL_PASS=${MAIL_PASS:-}
       - MAIL_CRYPTO=${MAIL_CRYPTO:-tls}
       - MAIL_FROM=${MAIL_FROM:?set MAIL_FROM - relays reject unknown senders}
-      - MAIL_FROM_NAME=${MAIL_FROM_NAME:-Universal HelpDesk}
+      - MAIL_FROM_NAME=${MAIL_FROM_NAME:-Chikiting System}
 
   db:
     restart: always

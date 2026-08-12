@@ -7,7 +7,7 @@ use CodeIgniter\Config\BaseConfig;
 class Email extends BaseConfig
 {
     public string $fromEmail  = 'helpdesk@universalhelpdesk.local';
-    public string $fromName   = 'Universal HelpDesk';
+    public string $fromName   = 'Chikiting System';
     public string $recipients = '';
 
     public string $userAgent = 'CodeIgniter';

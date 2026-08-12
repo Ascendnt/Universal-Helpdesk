@@ -22,7 +22,7 @@ class Doctor extends BaseCommand
     {
         $config = new N8n();
 
-        CLI::write('Universal HelpDesk - health check', 'yellow');
+        CLI::write('Chikiting System - health check', 'yellow');
         CLI::newLine();
 
         $this->database();

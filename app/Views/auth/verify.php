@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Verify your email — Universal HelpDesk</title>
+    <title>Verify your email — Chikiting System</title>
     <?= theme_head() ?>
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -11,7 +11,7 @@
     <div class="auth-shell">
         <?= theme_toggle('auth-theme') ?>
         <div class="auth-wrap">
-            <div class="auth-brand"><?= brand_mark(34) ?> Universal HelpDesk</div>
+            <div class="auth-brand"><?= brand_mark(34) ?> Chikiting System</div>
 
             <div class="auth-card">
                 <div class="step-rail" aria-label="Step 2 of 2">

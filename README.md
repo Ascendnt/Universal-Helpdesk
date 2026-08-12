@@ -1,4 +1,4 @@
-# Universal HelpDesk
+# Chikiting System
 
 An internal helpdesk where the intake form is one box: *describe your problem*.
 Everything after that is automatic — the request is classified, tagged, routed to

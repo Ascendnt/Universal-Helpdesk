@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Universal HelpDesk</title>
+    <title>Chikiting System</title>
     <?= theme_head() ?>
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -13,7 +13,7 @@
         <aside class="sidebar">
             <div class="brand">
                 <?= brand_mark() ?>
-                Universal HelpDesk
+                Chikiting System
             </div>
             <div class="tagline">Support &amp; Ticketing</div>
 

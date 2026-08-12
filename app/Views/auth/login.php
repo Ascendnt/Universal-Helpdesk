@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Log in — Universal HelpDesk</title>
+    <title>Log in — Chikiting System</title>
     <?= theme_head() ?>
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -11,11 +11,11 @@
     <div class="auth-shell">
         <?= theme_toggle('auth-theme') ?>
         <div class="auth-wrap">
-            <div class="auth-brand"><?= brand_mark(34) ?> Universal HelpDesk</div>
+            <div class="auth-brand"><?= brand_mark(34) ?> Chikiting System</div>
 
             <div class="auth-card">
                 <h1>Welcome back</h1>
-                <div class="subtitle">Log in to triage, track, and resolve requests.</div>
+                <div class="subtitle">Chikiting System</div>
 
                 <?php if (session()->getFlashdata('error')): ?>
                     <div class="alert alert-error"><?= icon('flag', 16) ?> <?= esc(session()->getFlashdata('error')) ?></div>

@@ -1,4 +1,4 @@
-# Universal HelpDesk — setup
+# Chikiting System — setup
 
 One command. Nothing is installed on your machine — no PHP, no Composer, no
 MySQL, no mail account, no model.

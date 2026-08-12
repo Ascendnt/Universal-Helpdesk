@@ -61,7 +61,7 @@ class EmailVerifier
 
         $sent = $this->mailer->send(
             $email,
-            'Your Universal HelpDesk verification code',
+            'Your Chikiting System verification code',
             $this->body($code)
         );
 
@@ -232,13 +232,13 @@ class EmailVerifier
         $minutes = $this->config->codeTtlMinutes;
 
         return implode("\n", [
-            'Your Universal HelpDesk verification code is:',
+            'Your Chikiting System verification code is:',
             '',
             '    ' . $code,
             '',
             "It is good for {$minutes} minutes and can only be used once.",
             '',
-            'If you did not try to create a HelpDesk account, you can ignore this',
+            'If you did not try to create a Chikiting System account, you can ignore this',
             'message - nothing has been created and nobody can finish the signup',
             'without this code.',
         ]);
